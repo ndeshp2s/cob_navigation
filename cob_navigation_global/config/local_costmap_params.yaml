@@ -1,8 +1,8 @@
 local_costmap:
   global_frame: map
   robot_base_frame: base_footprint
-  update_frequency: 4.0
-  publish_frequency: 2.0
+  update_frequency: 8.0
+  publish_frequency: 4.0
   static_map: false
   rolling_window: true
   width: 5.0
@@ -10,3 +10,6 @@ local_costmap:
   resolution: 0.025
   origin_x: 0.0
   origin_y: 0.0
+  #inscribed_radius: 0.25
+  #circumscribed_radius: 0.30
+  inflation_radius: 0.30
